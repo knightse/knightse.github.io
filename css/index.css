@@ -16,6 +16,10 @@ header.masthead {
     background-color: rgb(33,33,33);
 }
 
+img {
+    object-fit: cover;
+}
+
 h1 {
     color: white;
     margin-top: 5px;
@@ -36,4 +40,12 @@ h1 {
 
 .icon {
     background-color: black;
+}
+
+.ul {
+    list-style-type: none;
+}
+
+.skills {
+    margin-top: 20px;
 }
