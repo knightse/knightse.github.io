@@ -1,280 +1,272 @@
-<!-- 
-  About this website,
-  it's just a simple website built with vanilla HTML, CSS (Bootstrap), and a bit of JavaScript (and JQuery) in order to have a small website that is mine.
-  I have plans to expand it and create a more fulfilling design with better content, just have a lot of other things to focus on first.
- -->
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="author" content="Caine Simpson">
-        <title>CS</title>
-
-        <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/creative.css" rel="stylesheet">
-        <link href="css/index.css" rel="stylesheet">
-        <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-        <!-- <link href="" rel="stylesheet"> -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Caine S.</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/logo.png" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
     </head>
+    <body id="page-top">
 
-    <body>
-<!--Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-                <div class="container">
-                  <a class="navbar-brand" href="#">CS</a>
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                      <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#experience">Experience</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Portfolio</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                      </li>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Caine Simpson</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpeg" alt="..." /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#projects">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li> -->
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Caine
+                        <span class="text-primary">Simpson</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        (316) 882-1984 ·
+                        <a class="portfolio-link" href="mailto:Caine.Simpson@icloud.com">Caine.Simpson@icloud.com</a>
+                    </div>
+                    <p class="lead mb-5">I am a Software Developer experienced in building mobile applications for iOS and Android platforms. Currently finishing degree (Graduating December 2021) and working in iOS and React platforms to build high quality applications.</p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/cainesim/"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/cscaesim"><i class="fab fa-github"></i></a>
+                        <!-- <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a> -->
+                        <!-- <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a> -->
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Software Developer</h3>
+                            <div class="subheading mb-3">Plains Solutions LLC</div>
+                            <p>Building Software solutions for local startups, from iOS/Android mobile platforms, to Flutter and VueJS multiplatform, developing new applications for local Software Startups.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">June 2020 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">iOS Developer</h3>
+                            <div class="subheading mb-3">Melini LLC</div>
+                            <p>Redesigned and improved application performance while also implementing new features and design in iOS application. Re-built apps search engine to take advantage of Google Search API, and re-designed algorithm to make search functionality more flexible and performant.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">February 2019 - March 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Software Developer</h3>
+                            <div class="subheading mb-3">Joyful Machines</div>
+                            <p>Created a bluetooth system using Bluetooth LE to enable iOS and Android applications to connect to a customized Arduino device for motion detection and alarm signalling for the SmartConnect app and fishing rod. Created Search system using Microsoft Bing API to provide fast and efficient business searching.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">December 2017 - January 2019</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Student QA Engineering Contactor</h3>
+                            <div class="subheading mb-3">NetApp</div>
+                            <p>Assembled and tested high performance server configurations, stress testing configurations to find potential Software or Hardware defects and bugs, while documenting the process to assist with the QA and Engineering process for new products.</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2016 - December 2017</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Wichita State University</h3>
+                            <div class="subheading mb-3">Bachelor of Science</div>
+                            <div>Minor in Mathematics</div>
+                            <div>Senior Design Project - An Information aggregate and sharing system built for the Wichtia Police Department</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">December 2021</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <hr class="m-0" />
+
+            <!-- Education-->
+            <section class="resume-section" id="projects">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Portfolio</h2>
+                    <div class="container">
+                        <!-- Portfolio Grid Items-->
+                        <div class="row justify-content-center">
+                            <!-- Portfolio Item 1-->
+                            <div class="col-md-6 col-lg-4 mb-5">
+                                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal1">
+                                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                    </div>
+                                    <img class="img-fluid" src="assets/img/cely.png" alt="..." />
+                                    <h4>
+                                        <a class="portfolio-link" href="https://apps.apple.com/us/app/cely/id1570441079">
+                                        Cely: Diabetes Companion
+                                        </a>
+                                    </h4>
+                                </div>
+                            </div>
+                            <!-- Portfolio Item 2-->
+                            <div class="col-md-6 col-lg-4 mb-5">
+                                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal2">
+                                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                    </div>
+                                    <img class="img-fluid" src="assets/img/tsna.PNG" alt="..." />
+                                    <h4>
+                                        <a class="portfolio-link" href="https://github.com/cscaesim/TSNAiOS">
+                                        Space News
+                                    </a>
+                                    </h4>
+                                </div>
+                            </div>
+                            <!-- Portfolio Item 3-->
+                            <div class="col-md-6 col-lg-4 mb-5">
+                                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal3">
+                                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                    </div>
+                                    <img class="img-fluid" src="assets/img/tapbenchmark.png" alt="..." />
+                                    <h4>
+                                        <a class="portfolio-link" href="https://github.com/cscaesim/TapBenchmark">
+                                        Tap Benchmark
+                                    </a>
+                                    </h4>
+                                </div>
+                            </div>
+                            <!-- Portfolio Item 4-->
+                            <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+                                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal4">
+                                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                    </div>
+                                    <img class="img-fluid" src="assets/img/smartconnect.png" alt="..." />
+                                    <h4>
+                                        <a class="portfolio-link" href="https://www.smartconnectoutdoor.com">
+                                        SmartConnect by Tackobox
+                                        </a>
+                                    </h4>
+                                </div>
+                            </div>
+                            <!-- Portfolio Item 5-->
+                            <div class="col-md-6 col-lg-4 mb-5 mb-md-0">
+                                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal5">
+                                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                    </div>
+                                    <img class="img-fluid" src="assets/img/cologo.png" alt="..." />
+                                    <h4>
+                                        <a class="portfolio-link" href="https://www.coimmunityfoundation.org">
+                                        Co-Immunity
+                                    </a>
+                                    </h4>
+                                </div>
+                            </div>
+                            <!-- Portfolio Item 6-->
+                            <div class="col-md-6 col-lg-4">
+                                <div class="portfolio-item mx-auto" data-bs-toggle="modal" data-bs-target="#portfolioModal6">
+                                    <div class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                        <div class="portfolio-item-caption-content text-center text-white"><i class="fas fa-plus fa-3x"></i></div>
+                                    </div>
+                                    <img class="img-fluid" src="assets/img/github.png" alt="..." />
+                                    <h4>
+                                        <a class="portfolio-link"href="https://www.coimmunityfoundation.org">
+                                        More on github...
+                                        </a>
+                                </h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-swift"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-android"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
                     </ul>
-                  </div>
-                </div>
-              </nav>
-
-        <header class="masthead text-center d-flex">
-                <div class="container my-auto">
-                  <div class="row">
-                    <div class="col-lg-10 mx-auto">
-                            <img class="img-responsive" id="profile" src="img/IMG_0442.jpeg" alt="">
-                      <h1 class="helloH1">
-                        <strong>Hi, I'm Caine</strong>
-                      </h1>
-                      <hr>
-                    </div>
-                    <div class="col-lg-8 mx-auto">
-                        <p class="text-faded mb-5">
-                          Software Developer interested in all things iOS and Android, Software Developer of 5 years and counting. Finishing up a Degree in Computer Science with a minor in Mathematics, and am branching out into Freelance development to continue improving my Development skills. 
-                      </p>
-                      <p class="text-faded mb-5"> Developer of Cely: Diabetes Companion on the <i class="fab fa-apple"></i> App Store!</p>
-                    </div>
-                  </div>
-                </div>
-              </header>
-
-              <section id="experience">
-                <div class="container">
-                  <div class="col-lg-12 text-center">
-                    <h2>My Experience</h2>
-                    <hr class="star-primary">
-                  </div>
-                </div>
-
-                <div class="container">
-                  <div class="history">
-                    <h3>My Work History</h3>
-                    <p>I'm a Software Developer of 5 years, focusing primary on iOS and sometimes Android platforms. I have branched out into a few other tech stacks as well, learning Web Development and using VueJS and ReactJS for various projects. I've worked with a few local startups in my area, working on apps such as SmartConnect from TackoBox, Thumbscore and LegacyBook from Creedent, and most recently Co-Immunity, building a Flutter application to bring their mission to mobile. I've recently begun to branch into Freelance contracts, and building my own iOS apps for the appstore.</p>
-                    <button class="btn btn-dark"> My Resume!</button>
-                  </div>
-                  <div  class="skills">
-                    <h3>Some of my skills</h3>
-                    <ul class="unstyled" style="list-style:none;">
-
-                      <!-- Skill Start -->
-                      <li>
-                      <div class="skill">
-                      
-                        <h5>Swift</h5>
-                        <div class="progress">
-                          <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div> 
-                        </div>
-                    </div>
-                  </li>
-                    <!-- Skill End -->
-
-                     <!-- Skill Start -->
-                     <div class="skill">
-                     <li>
-                       <h5>Kotlin</h5>
-                       <div class="progress">
-                         <div class="progress-bar bg-success" role="progressbar" style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div> 
-                       </div>
-                     </li>
-                   </div>
-                   <!-- Skill End -->
-
-                    <!-- Skill Start -->
-                    <div class="skill">
-                      <li>
-                        <h5>JavaScript</h5>
-                        <div class="progress">
-                          <div class="progress-bar bg-info" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div> 
-                        </div>
-                      </li>
-                    </div>
-                    <!-- Skill End -->
-
-                    <!-- Skill Start -->
-                    <div class="skill">
-                      <li>
-                        <h5>Python</h5>
-                        <div class="progress">
-                          <div class="progress-bar bg-warning" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div> 
-                        </div>
-                      </li>
-                    </div>
-                    <!-- Skill End -->
+                    <div class="subheading mb-3">Technology Stacks</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            iOS
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Android
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            MERN
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Flutter
+                        </li>
                     </ul>
-                  </div>
                 </div>
-              </section>
+            </section>
+            <hr class="m-0" />
 
-<!--Portfolio-->
-        <section id="portfolio">
-          <div class="container text-center">
-              <div class="row">
-                  <div class="col-lg-12 text-center">
-                      <h2>My Portfolio</h2>
-                      <hr class="star-primary">
-                  </div>
-              </div>
-            </div>
-
-              <div class="container">
-                <!-- Page Heading -->
-                <h1 class="my-4">Page Heading
-                  <small>Secondary Text</small>
-                </h1>
-<!-- Project 1 -->
-                <div class="row"> 
-                  <div class="col-lg-6 portfolio-item">
-                    <div class="card h-100">
-                      <a href="https://github.com/cscaesim/Cely"><img stlye="object-fit: cover;"class="card-img-top" src="img/CelyDashScreenshot.png" height="310" alt="Cely iOS app"></a>
-                      <div class="card-body">
-                        <h4 class="card-title">
-                          <a href="https://github.com/cscaesim/Cely">Cely <i class="fab fa-apple"></i></a>
-                        </h4>
-                        <p class="card-text">Diabetes Companion app built to support diabetics using the Dexcom G series of sensors!</p>
-                      </div>
-                    </div>
-                  </div>
-<!-- Project 2 -->
-                  <div class="col-lg-6 portfolio-item">
-                    <div class="card h-100">
-                      <a href="https://www.smartconnectoutdoor.com/services"><img class="card-img-top" src="img/SmartConnectScreenshot.png" height="310" alt="SmartConnect Image from their website"></a>
-                      <div class="card-body">
-                        <h4 class="card-title">
-                          <a href="https://www.smartconnectoutdoor.com/services">SmartConnect <i class="fab fa-apple"></i> <i class="fab fa-android"></i></a>
-                        </h4>
-                        <p class="card-text">SmartConnect by Tackobox is an advanced bluetooth app and fishing real built to make your fishing experience easier.</p>
-                      </div>
-                    </div>
-                  </div>
-<!-- Project 3 -->
-                  <div class="col-lg-6 portfolio-item">
-                    <div class="card h-100">
-                      <a href="https://apps.apple.com/us/app/legacybook/id1463302655"><img style="object-fit:cover;"class="card-img-top" src="img/LegacyBookImage.png" height="310" alt=""></a>
-                      <div class="card-body">
-                        <h4 class="card-title">
-                          <a href="https://apps.apple.com/us/app/legacybook/id1463302655">LegacyBook <i class="fab fa-apple"></i></a>
-                        </h4>
-                        <p class="card-text">An app built to help your loved ones plan for the future.</p>
-                      </div>
-                    </div>
-                  </div>
-<!-- Project 4 -->
-                  <div class="col-lg-6 portfolio-item">
-                    <div class="card h-100">
-                      <a href="https://github.com/cscaesim/TapBenchmark"><img class="card-img-top" src="img/TapBenchmarkScreenshot.png" alt=""></a>
-                      <div class="card-body">
-                        <h4 class="card-title">
-                          <a href="https://github.com/cscaesim/TapBenchmark">Tap Benchmark</a>
-                        </h4>
-                        <p class="card-text">iOS App designed to measure your tap reaction speed. </p>
-                      </div>
-                    </div>
-                  </div>
-<!-- Project 5 -->
-                  <!-- <div class="col-lg-6 portfolio-item">
-                    <div class="card h-100">
-                      <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                      <div class="card-body">
-                        <h4 class="card-title">
-                          <a href="#">Project Five</a>
-                        </h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-                      </div>
-                    </div>
-                  </div> -->
-<!-- Project 6 -->
-                  <!-- <div class="col-lg-6 portfolio-item">
-                    <div class="card h-100">
-                      <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-                      <div class="card-body">
-                        <h4 class="card-title">
-                          <a href="#">Project Six</a>
-                        </h4>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit aliquam aperiam nulla perferendis dolor nobis numquam, rem expedita, aliquid optio, alias illum eaque. Non magni, voluptates quae, necessitatibus unde temporibus.</p>
-                      </div>
-                    </div>
-                  </div>
-
-                </div> -->
-
-                <a href="https://github.com/cscaesim" target="_blank">...And more coming!</a>
-        </section>
-
-<!--Contact-->
-
-        <section id="contact">
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-9 mx-auto text-center">
-                <h2 class="section-heading">Let's Get In Touch!</h2>
-                <hr class="my-4">
-                <p class="mb-5">Here's some ways to get into contact with me quickly</p>
-              </div>
-            </div>
-            <div class="row">
-              
-              <div class="col-lg-4 mr-auto text-center">
-                <p>
-                  <a href="mailto:caine.simpson@icloud.com"><i class="fas fa-envelope fa-3x mb-3 sr-contact-2"></i></a>
-                </p>
-              </div>
-
-              <div class="col-lg-4 mr-auto text-center">
-                <p>
-                  <a href="https://www.linkedin.com/in/caine-simpson-432141b8/" target="_blank"><i class="fab fa-linkedin fa-3x mb-3 sr-contact-2"></i></a>
-                </p>
-              </div>
-
-              <div class="col-lg-4 mr-auto text-center">
-                <p>
-                  <a href="https://github.com/cscaesim" target="_blank"><i class="fab fa-github fa-3x mb-3 sr-contact-2"></i></a>
-                </p>
-              </div>
-
-            </div>
-          </div>
-        </section>
-
-<!-- Footer -->
-          <footer class="py-5 bg-dark">
-            <div class="container">
-              <p class="m-0 text-center text-white">Copyright &copy; Caine Simpson 2018</p>
-              <p class="m-0 text-center text-white">Go Jayhawks!</p>
-            </div>
-          </footer>
-
-
-        <script src="vendor/jquery/jquery.min.js"></script>
-        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-        <script src="js/index.js"></script>
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                </div>
+            </section>
+            <hr class="m-0" />
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
     </body>
-    
 </html>
